@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Services</title>
+    <link rel="stylesheet" href="services.css">
+	<style>
+	body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f6f6f6;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a.active,
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Services Section */
+.services-section {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.services-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.services-section .sub-text {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.service-box {
+    background: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.service-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.service-box img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.service-box h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 15px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+	</style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">MyWebDev</div>
+        <nav>
+            <a href="file:///C:/Users/admin/OneDrive/Desktop/index.html">Home</a>
+            <a href="file:///C:/Users/admin/OneDrive/Desktop/service.html">Services</a>
+            <a href="file:///C:/Users/admin/OneDrive/Desktop/sangha.html">About</a>
+            <a href="file:///C:/Users/admin/OneDrive/Desktop/PRO.html">form</a>
+        </nav>
+    </header>
+
+    <!-- Main Services Section -->
+    <section class="services-section">
+        <h1>My Web Development Services</h1>
+        <p class="sub-text">I build modern, responsive and high-performance websites.</p>
+
+        <div class="services-container">
+
+            <div class="service-box">
+                <img src="https://cdn-icons-png.flaticon.com/128/1006/1006771.png" alt="">
+                <h3>Website Design</h3>
+                <p>I design clean, attractive, and user-friendly website layouts using HTML, CSS, and UI/UX principles.</p>
+            </div>
+
+            <div class="service-box">
+                <img src="https://cdn-icons-png.flaticon.com/128/1006/1006774.png" alt="">
+                <h3>Front-End Development</h3>
+                <p>Professional front-end development using HTML, CSS, JavaScript, and responsive design.</p>
+            </div>
+
+            <div class="service-box">
+                <img src="https://cdn-icons-png.flaticon.com/128/1006/1006776.png" alt="">
+                <h3>Back-End Development</h3>
+                <p>Building secure and scalable back-end systems using PHP, Node.js, and databases.</p>
+            </div>
+
+            <div class="service-box">
+                <img src="https://cdn-icons-png.flaticon.com/128/2721/2721290.png" alt="">
+                <h3>SEO Optimization</h3>
+                <p>Improving your website's search engine ranking to attract more visitors and customers.</p>
+            </div>
+
+            <div class="service-box">
+                <img src="https://cdn-icons-png.flaticon.com/128/1828/1828940.png" alt="">
+                <h3>Website Maintenance</h3>
+                <p>Monthly updates, bug fixing, security checks, and performance improvements.</p>
+            </div>
+
+            <div class="service-box">
+                <img src="https://cdn-icons-png.flaticon.com/128/747/747376.png" alt="">
+                <h3>E-Commerce Development</h3>
+                <p>Custom online stores with secure payment integration and product management.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>My first webpage</p>
+    </footer>
+
+</body>
+</html>
